@@ -53,7 +53,7 @@ global.video= "https://telegra.ph/file/204481823350f368c1826.mp4" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="sylivanusmomanyi@gmail.com"
-global.location="Kisii,Kenya."
+global.location="kisumu,Kenya."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -70,15 +70,15 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "254700143167, 254743706010 " // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') :  "254700143167, 254743706010";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254700143167, 254743706010";
+global.devs = "254102028964 " // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') :  "254102028964";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254102028964";
 
 
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '0',  // put '1' to "5" here to check bot styles
+global.style = process.env.STYLE   || '1',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
@@ -118,10 +118,10 @@ module.exports = {
   VERSION : process.env.VERSION || "V.2.5.1",
   caption : process.env.CAPTION || "*©²⁰²⁴ 𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋*" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋』*\n tiktok.com/@silva.edits6"),
  
-  author : process.env.PACK_AUTHER|| "Silva Tech",
+  author : process.env.PACK_AUTHER|| "𝕄𝕖𝕣𝕤𝕖𝕪𝕤𝕚𝕕𝕖✰❃✰",
   packname: process.env.PACK_NAME || "Silva-Md♥️",
-  botname : process.env.BOT_NAME  || "𝐒𝚰𝐋𝛁𝚫 𝚻𝚵𝐂𝚮💋-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Silva Tech",
+  botname : process.env.BOT_NAME || "𝕄𝕖𝕣𝕤𝕖𝕪𝕤𝕚𝕕𝕖✰❃✰",
+  ownername:process.env.OWNER_NAME|| "Merseyside",
 
 
   errorChat : process.env.ERROR_CHAT || "",
